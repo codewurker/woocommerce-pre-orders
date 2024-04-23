@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "woocommerce-pre-orders/message-control-block",
+  "version": "0.1.0",
+  "title": "Message Block",
+  "category": "widgets",
+  "icon": "flag",
+  "description": "A block to display messages in plain-text or HTML.",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "html": true,
+    "inserter": false
+  },
+  "textdomain": "woocommerce-pre-orders",
+  "editorScript": "file:./index.js"
+}

@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "woocommerce-pre-orders/select-control-block",
+	"version": "0.1.0",
+	"title": "Select Control",
+	"category": "widgets",
+	"icon": "flag",
+	"description": "A block to display a select control.",
+	"attributes": {
+		"property": {
+			"type": "string",
+			"default": ""
+		},
+		"title": {
+			"type": "string",
+			"default": ""
+		},
+		"help": {
+			"type": "string",
+			"default": ""
+		},
+		"options": {
+			"type": "array",
+			"default": []
+		},
+		"multiple": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"textdomain": "woocommerce-pre-orders",
+	"editorScript": "file:./index.js"
+}
